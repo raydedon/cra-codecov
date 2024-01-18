@@ -28,15 +28,15 @@ ignore:
   - ./src/**/*.stories.jsx
   - ./src/**/*.stories.ts
   - ./src/**/*.stories.tsx
-  - ./src/setupTests.js
+  - ./src/setupTests.ts
   - ./src/setupProxy.js
-  - ./src/reportWebVitals.js
+  - ./src/reportWebVitals.ts
   - ./scripts/*
-  - ./src/index.js
+  - ./public/*
+  - ./config/*
+  - ./.github/*
+  - ./src/index.tsx
   - ./src/sentry.ts
   - ./src/mocks/*.js
   - ./src/**/flags/**/*.js
   - ./src/**/mocks.js
-  - ./src/pages/RepoPage/repo-jest-setup.js
-  - ./src/ui/SunburstChart/*.jsx
-  - ./src/ui/SunburstChart/*.js
