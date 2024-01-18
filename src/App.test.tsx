@@ -46,12 +46,12 @@ describe('App', () => {
     const taskInput = screen.getByRole('textbox', {name: 'task'});
     const deadlineInput = screen.getByRole('spinbutton');
     const btn = screen.getByRole('button', {name: 'Add Task'});
-    const removeTaskBtn = screen.getByRole('button', {name: 'X'});
     fireEvent.click(taskInput);
     fireEvent.change(taskInput, { target: { value: 'test1' } });
     fireEvent.click(deadlineInput);
     fireEvent.change(deadlineInput, { target: { value: '50' } });
     fireEvent.click(btn);
+    const removeTaskBtn = screen.getByRole('button', {name: 'X'});
     fireEvent.click(removeTaskBtn);
 
 
