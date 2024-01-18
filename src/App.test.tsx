@@ -59,4 +59,4 @@ describe('App', () => {
     expect(screen.queryByText('test1')).toBeNull();
     expect(screen.queryByText('50')).toBeNull();
   });
-})
+});
