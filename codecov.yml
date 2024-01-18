@@ -39,3 +39,7 @@ ignore:
   - ./src/mocks/*.js
   - ./src/**/flags/**/*.js
   - ./src/**/mocks.js
+
+profiling:
+  critical_files_paths:
+    - ./src/components/*
