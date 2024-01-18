@@ -16,7 +16,8 @@ coverage:
 
 
 comment:
-  layout: 'reach, diff, flags, files, components, footer'
+  layout: 'reach, diff, flags, files, components, footer, betaprofiling'
+  show_critical_paths: true
   behavior: default
   require_changes: no
   require_base: no
