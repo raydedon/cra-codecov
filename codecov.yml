@@ -14,7 +14,17 @@ coverage:
       default:
         target: auto
         threshold: 10%
-    patch: yes
+    patch:
+      default:
+        # basic
+        target: auto
+        threshold: 0%
+        base: auto
+        branches:
+          - main
+        if_ci_failed: error
+        only_pulls: false
+
     changes: no
 
 
